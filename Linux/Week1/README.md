@@ -1,6 +1,6 @@
-Opdrachten Practicum week 1
+#Opdrachten Practicum week 1
 
-Basic Commandos
+##Basic Commandos
 Deze opdracht is onhandig, er staan geen Java bestanden op een verse Linux installatie dus zal het testen erg moeilijk worden..
 A) find . -name "*.java" -exec grep "Main" {} -newermt "7 days ago" -ls \;
 
@@ -23,11 +23,11 @@ G)
 - /lib gedeelde billiotheken die nodig zijn voor programmas op het root filesystem.
 - /proc Het is een nep of virueel filesystem waarin files komen die worden opgeslagen in de memory zoals bijvoorbeeld proces informatie.
 - /root Het home directory van de root user.
-- /usr Dit is waar programmas vaak worden ginstaleerd. Dit zijn meestal files van de distro. 
-- /usr/bin Bijna alle user commands. 
+- /usr Dit is waar programmas vaak worden ginstaleerd. Dit zijn meestal files van de distro.
+- /usr/bin Bijna alle user commands.
 - /usr/sbin System admin commands die niet nodig zijn in de root filesystem.
 - /media heeft subdirectories waar removable media devices (usb sticks etc.) in staan.
-- /mnt mount point voor tijdelijke mounts van de SA. 
+- /mnt mount point voor tijdelijke mounts van de SA.
 - /sbin zelfde als bin, maar voor non-normal users tenzij ze specifiek rechten krijgen
 - /usr/share Gebruiksaanwijzing, GNA info docs, verschillende andere docs.
 - /var In var staan dingen die tijdens normale operation veranderd kunnen worden. Denk bijvoorbeeld aan een website die in /var/www staat.
@@ -37,4 +37,10 @@ H)
 - ping /usr/bin
 - rm /usr/bin
 - mkfs /usr/sbin
-- fdisk /user/sbin
+- fdisk /usr/sbin
+- syslogd /usr/sbin (maar dan wel rsyslog)
+- grub/lilo /user/sbin en /user/bin
+- man pages /usr/share
+- interface en host config /etc
+
+##SYSTEM Management
