@@ -1,6 +1,6 @@
-#Opdrachten Practicum week 1
+# Opdrachten Practicum week 1
 
-##Basic Commandos
+## Basic Commandos
 Deze opdracht is onhandig, er staan geen Java bestanden op een verse Linux installatie dus zal het testen erg moeilijk worden..
 A) find . -name "*.java" -exec grep "Main" {} -newermt "7 days ago" -ls \;
 
@@ -43,4 +43,4 @@ H)
 - man pages /usr/share
 - interface en host config /etc
 
-##SYSTEM Management
+## SYSTEM Management
