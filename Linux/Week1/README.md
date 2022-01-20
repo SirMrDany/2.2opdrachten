@@ -131,12 +131,16 @@ Het werkt
 ## Installeren van applicaties
 A)Veel Linux software is beschikbaar in een zogenaamde “tarball”, deze hebben extensies .tgz of tar.gz. Met welke commando’s pak je zo’n bestand uit?
 tar -xf (filename)
+
 B) Met welk dpkg commando krijg je een lijst van alle geïnstalleerde pakketten?
 sudo apt list --installed
+
 C) Met welke dpkg commando kun je achterhalen uit welke files het pakket “apache2” bestaat ?
 Ik heb apache2 momenteel niet geinstaleerd, er is nergens vermeld dat dit nodig was.
 Volgens internet: dpkg-query -L <package_name>
+
 D) Waar staat de “executable” apache2 ?
 Nergens, want apache is niet geinstaleerd bij default. Sudo apt-get install apache2 doet dat zo, maar ik wacht nog even tot week 2.
+
 E) En waar wordt de variabele DocumentRoot gedefinieerd ?
 DocumentRoot zou in de normale plek zijn. /var/www/html
