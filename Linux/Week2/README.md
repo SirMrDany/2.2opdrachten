@@ -1,4 +1,4 @@
-# Opdrachten Practicum week 1
+# Opdrachten Practicum week 2
 
 Opdracht scripting
 
@@ -7,7 +7,7 @@ doet. De foto’s worden door middel van een cloud oplossing gedeeld en gesynchr
 laptop. Na een jaartje foto’s knippen valt het je op dat je veel tijd kwijt bent met de foto’s in
 verschillende mapjes te zetten (dit doe je zodat je ze snel terug kunt vinden).
 
-Je wilt nu een eenvoudig tooltje om foto’s automatisch te verplaatsen naar één of meerdere 
+Je wilt nu een eenvoudig tooltje om foto’s automatisch te verplaatsen naar één of meerdere
 mappen. Je hebt daarop besloten om deze zelf te maken met behulp van een Linux shell script.
 
 Het script accepteert twee parameter.
