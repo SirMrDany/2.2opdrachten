@@ -1,6 +1,5 @@
 #include <WiFi.h>
-//#include "secret.h"
-//Geen idee hoe dit secret spul werkt, ik heb gewoon een wifi netwerkje gemaakt hiervoor.. 
+#include "secret.h"
 #include "time.h"
 // data below is set as a define in the file secret.h
 const char* ssid       = "Mijn SSID";
