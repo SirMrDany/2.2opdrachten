@@ -59,7 +59,27 @@ void setup(){
   }
   putchar('\n');
 }
-
-void loop(){
+int ctr = 0;
+void loop() {
+  printf("counter = %d\n", ctr);
+  if (ctr == 10) {
+    vTaskSuspend(leds[0].taskh);
+    printf ("Suspend Task %d",(ctr/3));
+  }
+  if (ctr == 13) {
+    vTaskSuspend(leds[1].taskh);
+    printf ("Suspend Task %d",(ctr/3));
+  }
+  if (ctr == 16) {
+    vTaskSuspend(leds[2].taskh);
+    printf ("Suspend Task %d",(ctr/3));
+  }
+  if (ctr == 25) {
+    vTaskResume(leds[0].taskh);
+    vTaskResume(leds[1].taskh);
+    vTaskResume(leds[2].taskh);
+    ctr = 0;
+  }
   delay(1000);
+  ctr++;
 }
