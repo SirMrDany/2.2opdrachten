@@ -1,9 +1,9 @@
 // basic_tasks.ino but name changed to opdracht 5
 // MIT license 
 
-#define LED1 12
-#define LED2 13
-#define LED3 14
+#define LED1 15
+#define LED2 16
+#define LED3 17
 
 struct s_led {
   byte gpio;
